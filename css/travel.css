@@ -220,3 +220,44 @@ background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
 .box12:hover{
     background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
 }
+
+.button {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.btn {
+  border: 3px solid mintcream;
+  padding:10px 30px;
+  color: mintcream;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  float: left;
+}
+
+
+.btn-one {
+  padding: 12px 28px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #9eb36e;
+}
+
+.btn-one:hover{
+  color: #DC99FA;
+  background-color: pink;
+  transition: all 0.5s ease-in;
+}
+
+.btn-two {
+  padding: 12px 28px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #9eb36e;
+}
+
+.btn-two:hover{
+  color:#DC99FA;
+  background-color: pink;
+  transition: all 0.5s ease-in;
+}
