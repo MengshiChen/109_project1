@@ -5,7 +5,7 @@ html, body {
 
 }
 body{
- background-image:url('/images/backgd_3.png');
+ background-image:url('images/backgd_3.png');
  background-size: 100%;
  background-position: center top;
  background-repeat: repeat;
