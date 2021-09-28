@@ -111,7 +111,7 @@ a:hover{
   margin: 105px;
   border-radius: 50% 50% 50% 50%;
   background-color: white;
-    box-shadow: 3px 3px 3px 3px yellow;
+  box-shadow: 3px 3px 3px 3px yellow;
 }
 .dots2{
   position: absolute;

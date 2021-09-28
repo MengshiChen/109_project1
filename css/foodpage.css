@@ -10,7 +10,7 @@ body{
  background-position: center top;
  background-repeat: repeat;
  height:500px;
- background-image:url('https://mengshichen.github.io/project1_109/images/backgd_1.png');
+ background-image:url('../images/backgd_1.png');
  background-color: #0D1C8C;
 }
 
@@ -80,6 +80,10 @@ p{
   clip-path: polygon(26% 0, 0 90%, 100% 100%);
 }
 
+.image1:after{
+
+}
+
 .image2{
   clip-path: polygon(17% 18%, 92% 11%, 100% 83%, 0 87%);
 }
@@ -119,6 +123,7 @@ p{
 .image11{
   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
+
 
 .button {
   margin-top: 2100px;
