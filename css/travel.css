@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+html, body {
+     min-height: 90%;
+
+}
+body{
+ background-image:url('/images/backgd_4.png');
+ background-size: 100%;
+ background-position: center top;
+ background-repeat: repeat;
+ height:500px;
+ background-color: #0D1C8C;
+}
+
+.animation{
+  margin-top: 250px;
+  max-width: 100%;
+}
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.image{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box1{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+
+.box2{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 10s infinite;
+
+}
+.box3{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+
+.box4{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 10s infinite;}
+
+.box5{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+.box6{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 10s infinite;
+}
+.box7{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+.box8{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 10s infinite;
+}
+.box9{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+.box10{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+.box11{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+.box12{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 10s infinite;
+}
+/* .box13{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 5s infinite;
+} */
+
+.box1:hover{
+    background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
+}
+.box3:hover{
+    background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
+}
+.box5:hover{
+    background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
+}
+.box7:hover{
+    background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
+}
+.box9:hover{
+    background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
+}
+.box11:hover{
+    background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
+}
+/* .box13:hover{
+    background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
+} */
+.box2:hover{
+    background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
+}
+.box4:hover{
+    background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
+}
+.box6:hover{
+  background-image: linear-gradient(TO bottom,#9eb36e,#6c8f24);
+}
+
+.box8:hover{
+    background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
+}
+.box10:hover{
+  background-image: linear-gradient(TO bottom,#9eb36e,#6c8f24);
+}
+.box12:hover{
+    background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
+}
