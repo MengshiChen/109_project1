@@ -216,3 +216,15 @@ p{
   background-color: pink;
   transition: all 0.5s ease-in;
 }
+
+.btn-three {
+  padding: 12px 28px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #04BFBF;
+}
+
+.btn-three:hover{
+  color:white;
+  background-color: pink;
+  transition: all 0.5s ease-in;
+}

@@ -242,9 +242,9 @@ background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
 .box11:hover{
     background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
 }
-/* .box13:hover{
+.box13:hover{
     background-image: linear-gradient(TO bottom,#ffa500,#ffc93b);
-} */
+}
 .box2:hover{
     background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
 }
@@ -264,7 +264,12 @@ background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
 .box12:hover{
     background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
 }
-
+.box14:hover{
+  background-image: linear-gradient(TO bottom,#9eb36e,#6c8f24);
+}
+.box15:hover{
+    background-image: linear-gradient(TO bottom,#cbb6ee,#a787e1);
+}
 .button {
   margin-top: 50px;
   margin-left: 20px;
@@ -285,7 +290,7 @@ background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
 .btn-one {
   padding: 12px 28px;
   font-family: 'Balsamiq Sans', cursive;
-  background-color: #9eb36e;
+  background-color: #04BFBF;
 }
 
 .btn-one:hover{
@@ -297,11 +302,23 @@ background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
 .btn-two {
   padding: 12px 28px;
   font-family: 'Balsamiq Sans', cursive;
-  background-color: #9eb36e;
+  background-color: #04BFBF;
 }
 
 .btn-two:hover{
   color:#DC99FA;
+  background-color: pink;
+  transition: all 0.5s ease-in;
+}
+
+.btn-three {
+  padding: 12px 28px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #04BFBF;
+}
+
+.btn-three:hover{
+  color:white;
   background-color: pink;
   transition: all 0.5s ease-in;
 }
