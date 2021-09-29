@@ -5,7 +5,7 @@ html, body {
 
 }
 body{
- background-image:url('https://mengshichen.github.io/project1_109/images/backgd_4.png');
+ background-image:url('../images/backgd_4.png');
  background-size: 100%;
  background-position: center top;
  background-repeat: repeat;
@@ -168,6 +168,50 @@ background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
   background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
   animation:infinite-spinning 10s infinite;
 }
+.box13{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 6s infinite;
+}
+.box14{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 4s infinite;
+}
+.box15{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 8s infinite;
+}
+/* .box16{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(TO bottom,#B835F9,#6F24E3);
+  animation:infinite-spinning 12s infinite;
+} */
 /* .box13{
   display: inline-block;
   margin-left: 50px;

@@ -5,7 +5,7 @@ html, body {
 
 }
 body{
- background-image:url('https://mengshichen.github.io/project1_109/images/backgd_3.png');
+ background-image:url('../images/backgd_3.png');
  background-size: 100%;
  background-position: center top;
  background-repeat: repeat;
@@ -46,6 +46,7 @@ a:hover{
   border-radius: 50% 50% 50% 50%;
   background-color: #D44C1C;
 }
+
 
 .round2{
   position: absolute;
@@ -111,7 +112,9 @@ a:hover{
   margin: 105px;
   border-radius: 50% 50% 50% 50%;
   background-color: white;
-  box-shadow: 3px 3px 3px 3px yellow;
+  box-shadow: 3px 3px 3px 3px #CCD3FF;
+  animation-name: dots;
+  animation:dots 5s infinite;
 }
 .dots2{
   position: absolute;
@@ -123,6 +126,8 @@ a:hover{
   border-radius: 50% 50% 50% 50%;
   background-color: white;
   box-shadow: 5px 5px 5px 5px pink;
+  animation-name: dots;
+  animation:dots 10s infinite;
 }
 .dots3{
   position: absolute;
@@ -134,6 +139,8 @@ a:hover{
   border-radius: 50% 50% 50% 50%;
   background-color: white;
   box-shadow: 1px 1px 1px 1px pink;
+  animation-name: dots;
+  animation:dots 5s infinite;
 }
 .dots4{
   position: absolute;
@@ -145,6 +152,8 @@ a:hover{
   border-radius: 50% 50% 50% 50%;
   background-color: white;
   box-shadow: 2px 2px 2px 2px pink;
+  animation-name: dots;
+  animation-duration: 4s infinite;
 }
 .dots5{
   position: absolute;
@@ -155,7 +164,9 @@ a:hover{
   margin: 105px;
   border-radius: 50% 50% 50% 50%;
   background-color: white;
-  box-shadow: 1px 1px 1px 1px yellow;
+  box-shadow: 1px 1px 1px 1px #CCD3FF;
+  animation-name: dots;
+  animation-duration: 4s infinite;
 }
 
 .dots6{
@@ -168,6 +179,8 @@ a:hover{
   border-radius: 50% 50% 50% 50%;
   background-color: white;
   box-shadow: 1px 1px 1px 1px yellow;
+  animation-name: dots;
+  animation:dots 5s infinite;
 }
 
 .dots7{
@@ -180,6 +193,8 @@ a:hover{
   border-radius: 50% 50% 50% 50%;
   background-color: white;
   box-shadow: 1px 1px 1px 1px yellow;
+  animation-name: dots;
+  animation:dots 4s infinite;
 }
 
 .dots8{
@@ -192,6 +207,15 @@ a:hover{
   border-radius: 50% 50% 50% 50%;
   background-color: white;
   box-shadow: 1px 1px 1px 1px pink;
+  animation-name: dots;
+  animation:dots 4s infinite;
+}
+
+@keyframes dots {
+  0% {background-color: white;}
+  25% {background-color: #D3E6FF;}
+  50%  {background-color: #FFEC8F;}
+  100% {background-color: #FFE1DB;}
 }
 
 .background2{
